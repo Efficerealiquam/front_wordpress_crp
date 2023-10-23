@@ -1,0 +1,92 @@
+.container_body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 900px;
+}
+
+
+.dropzone {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #eeeeee;
+    border-style: dashed;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border .24s ease-in-out;
+    height: 130px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.error-input{
+    color: rgb(175, 15, 15);
+    font-size: 0.8em;
+    font-weight: 700;
+    text-align: initial;
+}
+.btn_custom{
+    margin-top: 20px;
+    background-color: #40ae46;
+}
+.btn_custom:hover{
+    background-color: #337536;
+}
+
+.footer_options{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.cont_text {
+    background: #fafafa;
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text_footer {
+    font-weight: 500;
+    color: #2d2727;
+}
+.list_excel{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list_excel svg{
+    margin-right: 10px;
+}
+.title{
+    position: relative;
+    width: 100%; 
+}
+.title span{
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #40ae46;
+}
